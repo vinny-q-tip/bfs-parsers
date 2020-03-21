@@ -52,3 +52,4 @@ def parse_eidgenoessische_volksabstimmungen(path: str):
             df = df.append(df_part, ignore_index=True)
         else:
             df = df_part
+    return df
